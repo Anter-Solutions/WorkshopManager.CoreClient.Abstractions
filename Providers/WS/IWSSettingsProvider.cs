@@ -9,6 +9,6 @@ namespace WorkshopManager.CoreClient.Abstractions.Providers.WS
 {
     public interface IWSSettingsProvider
     {
-        Task<WSSettings?> GetWSSettings();
+        Task<WSSettings> GetWSSettings();
     }
 }

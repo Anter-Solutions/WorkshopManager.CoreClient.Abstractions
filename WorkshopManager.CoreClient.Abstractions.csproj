@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkshopManager.Common\WorkshopManager.Common.csproj" />
+    <ProjectReference Include="..\WorkshopManager.Infrastructure\WorkshopManager.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
